@@ -1,0 +1,30 @@
+<div class="backdrop" (click)="OnCancel()"></div>
+<dialog open>
+  <h2>Add Asana</h2>
+  <form (ngSubmit)="OnSubmit()" >
+    <p>
+      <label for="asana">Select Asana</label>
+      <select name="asana" id="asana" [(ngModel)] = "enteredAsana" (change)="OnSelectAsana(enteredAsana)">
+        <option *ngFor= "let item of asanas" [value]="item.name">{{item.name}}</option>
+      </select>
+    </p>
+
+    <p>
+      <label for="pose">Pose</label>
+      <input type="text" id="pose" name="pose" [value]="enteredPose" readonly/>
+    </p>
+
+    <p>
+      <label for="duration">Duration(In Minutes)</label>
+      <select name="duration" id="duration" [(ngModel)] ="enteredDuration">
+        <option *ngFor= "let item of durations" [value]="item" >{{item}}:00</option>
+      </select>
+    </p>
+
+
+    <p class="actions">
+      <button type="button" (click)="OnCancel()">Cancel</button>
+      <button type="submit">Create</button>
+    </p>
+  </form>
+</dialog>

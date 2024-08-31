@@ -1,0 +1,52 @@
+.backdrop {
+    background-color: #fcfcfc;
+    font-family: 'Lora', serif;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+  }
+  
+dialog {
+    width: 90%;
+    max-width: 30rem;
+    background-color: #539388;
+    border-radius: 6px;
+    border: none;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+    padding: 1rem;
+    top: 5rem;
+  }
+form{
+    padding:0rem 2rem;
+}
+h2{
+    color: #fcfcfc;
+    text-align: center;
+}
+select,
+input{
+    width: 100%;
+    height: 1.5rem;
+}
+label {
+    display: block;
+    font-weight: 700;
+    font-size: 1rem;
+    color: #fcfcfc;
+  }
+.actions{
+    display: flex;
+    justify-content: space-evenly;
+}
+button{
+    width: 8rem;
+    height: 2rem;
+    color: #fcfcfc;
+    background-color: #37625b;
+    border-style: solid;
+    font-size: 0.9rem;
+    border-color: #1c312d;
+}

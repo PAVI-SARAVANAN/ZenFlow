@@ -1,0 +1,18 @@
+
+@if(AddingAsana){
+    <app-new-asanas (Cancel)= "OnCancelAsana()" (add)= "OnSubmitAsana($event)"/>
+}
+
+<div class="asanas">
+    <header>
+        <p>{{SelectedDay}} : {{Goal}} </p>
+        <menu>
+            <button (click)="OnClickAdd()">Add</button>
+        </menu>      
+    </header>
+   
+    @for(item of dailyAsanas; track item.id) {
+            <app-daily-asanas [SelectedDayAsanas]= "item" (Complete) = "OnCompleteAsana($event)"/>
+        } 
+ 
+</div>

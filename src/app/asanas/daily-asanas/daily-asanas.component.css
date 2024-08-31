@@ -1,0 +1,27 @@
+article{
+    font-family: 'Lora', serif;
+    font-size: 1rem;
+    background-color:#add1cb ; 
+    padding-left: 0.2rem;   
+}
+p{
+    margin: 0px;
+    color: #1c312d;
+    font-weight: 600;
+    font-family: inherit;
+    padding: 0.3rem;
+}
+.actions{
+    text-align: right;
+    margin: 0.7rem 0rem;
+    padding: 0.5rem;
+}
+.actions button{
+    width: 5rem;
+    height: 2rem;
+    color: #fcfcfc;
+    background-color: #37625b;
+    border-style: solid;
+    font-size: 0.9rem;
+    border-color: #1c312d;
+}

@@ -1,0 +1,24 @@
+.zen-header{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    align-items: center;
+    padding: 0.7rem 0rem;
+    background-image: linear-gradient(#37625b, #40726a, #498379,#5ca397);
+    font-family: 'Lora', serif;
+    border-radius: 5px;
+}
+/* #eff6f5*/
+img{
+   object-fit: contain;
+   width: 4rem;
+}
+h2{
+    margin: 0px;
+    color:  #fcfcfc;
+}
+p{
+    margin: 0px;
+    color:  #fcfcfc;
+    font-weight: 600;
+}

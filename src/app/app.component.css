@@ -1,0 +1,26 @@
+main{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.days-list{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    margin: 1rem 0rem;
+    width: 30%;
+}
+.asanas-list{
+    display: grid;
+    margin: 1rem 0rem;
+    background-color: #539388;
+    width: 70%;
+    border-radius: 5px;
+}
+.asanas-list > h4{
+   
+    font-family: 'Lora', serif;
+    font-size: 1rem;
+    color: #fcfcfc;
+    padding: 0rem 1rem;
+}

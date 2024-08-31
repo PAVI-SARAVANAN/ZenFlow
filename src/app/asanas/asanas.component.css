@@ -1,0 +1,30 @@
+.asanas{
+    font-family: 'Lora', serif;
+    font-size: 1rem;
+    padding: 1rem;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+menu{
+    margin: 0px;
+    padding: 0px;
+}
+menu button{
+    width: 5rem;
+    height: 2rem;
+    color: #fcfcfc;
+    background-color: #37625b;
+    border-style: solid;
+    font-size: 0.9rem;
+    border-color: #1c312d;
+}
+p{
+    color: #fcfcfc;
+    font-weight: 700;
+    margin: 0px;
+}
